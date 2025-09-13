@@ -1,0 +1,1 @@
+This repository contains a basic website built with HTML, CSS, and JavaScript, demonstrating my understanding of web applications. It also reflects my experience with GitHub, web app deployment, and maintenance. The web app is currently hosted on Microsoft Azure as an Azure Web App running on Linux with PHP.
