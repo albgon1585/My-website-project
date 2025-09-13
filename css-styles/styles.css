@@ -1,0 +1,85 @@
+/* Reset some defaults */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9fb;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header area */
+h1 {
+  color: #1a73e8;
+  margin-bottom: 0;
+}
+
+h3 {
+  color: #444;
+  margin-top: 30px;
+  border-bottom: 2px solid #1a73e8;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Profile image */
+img {
+  width: 150px;
+  border-radius: 50%;
+  border: 3px solid #1a73e8;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Links */
+a {
+  color: #1a73e8;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: #0c4db3;
+  text-decoration: underline;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  margin: 20px 0;
+  width: 100%;
+  max-width: 800px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+thead {
+  background-color: #1a73e8;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* Skill stars */
+td:nth-child(2) {
+  font-size: 1.2rem;
+}
+
+/* Section dividers */
+hr {
+  border: none;
+  height: 1px;
+  background: #ddd;
+  margin: 30px 0;
+}
+
+/* Footer links */
+a[href$=".html"] {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+}
